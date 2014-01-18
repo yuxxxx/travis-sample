@@ -3,7 +3,7 @@ rvm: "2.1.0"
 before_install:
   - 'rspec'
   - 'bundler'
-script: "bundle exec rspec"
+script: "bundle && bundle exec rspec"
 notifications:
   emails:
     - "yuunnxx@gmail.com"
