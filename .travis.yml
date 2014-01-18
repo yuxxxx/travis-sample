@@ -4,6 +4,6 @@ before_install: # 事前にインストールするライブラリ
   - rspec
 script: "bundle exec rspec" # テストを実行するスクリプト
 notifications: # 通知設定
-  emails: "yuuxxxx@hatenablog.com"
+  emails: "yuunnxx@gmail.com"
   on_success: always # 成功時の通知タイミング
   on_failure: always # 失敗時の通知タイミング
