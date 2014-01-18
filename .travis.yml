@@ -6,6 +6,6 @@ before_install:
 script: "bundle exec rspec"
 notifications:
   emails:
-  	- "yuunnxx@gmail.com"
+    - "yuunnxx@gmail.com"
   on_success: always
   on_failure: always
